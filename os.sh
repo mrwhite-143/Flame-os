@@ -56,14 +56,14 @@ banner() {
 
 banner
 
-1line() { apt update && apt upgrade; pkg install zsh git figlet toilet ruby wget curl -y; gem install lolcat; clear; cd ~/Termux-os/.object/ && cp -r 'ANSI Shadow.flf' $PREFIX/share/figlet/ASCII-Shadow.flf; git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh; pkg install toilet figlet exa -y; cd ~/Termux-os/.object; rm -rf ~/.termux/colors.properties; rm -rf /data/data/com.termux/files/usr/etc/motd; cp -r .colors.properties ~/.termux/colors.properties; cp -r .termux.properties ~/.termux.properties; curl -L https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/FiraCode/Regular/FiraCodeNerdFont-Regular.ttf > ~/.termux/font.ttf; clear; cd ~/Termux-os ; bash os.sh; termux-open-url h4ck3r.me && termux-reload-settings; }
-2line() { rm -rf ~/.zshrc; git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh; cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc; cd ~/Termux-os ; bash os.sh; }
+1line() { apt update && apt upgrade; pkg install zsh git figlet toilet ruby wget curl -y; gem install lolcat; clear; cd ~/Flame-os/.object/ && cp -r 'ANSI Shadow.flf' $PREFIX/share/figlet/ASCII-Shadow.flf; git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh; pkg install toilet figlet exa -y; cd ~/Flame-os/.object; rm -rf ~/.termux/colors.properties; rm -rf /data/data/com.termux/files/usr/etc/motd; cp -r .colors.properties ~/.termux/colors.properties; cp -r .termux.properties ~/.termux.properties; curl -L https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/FiraCode/Regular/FiraCodeNerdFont-Regular.ttf > ~/.termux/font.ttf; clear; cd ~/Termux-os ; bash os.sh; termux-open-url h4ck3r.me && termux-reload-settings; }
+2line() { rm -rf ~/.zshrc; git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh; cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc; cd ~/Flame-os ; bash os.sh; }
 3line() { pkg install zsh; chsh -s zsh; cd ~/Termux-os ; bash os.sh; }
-4line() { chsh -s bash; cd ~/Termux-os ; bash os.sh; }
-5line() { rm -rf ~/.zshrc; cd ~/Termux-os/.object; bash .2.sh; clear ; cd ~/Termux-os ; bash os.sh; }
-6line() { cd ~/Termux-os/.object; bash .1.sh; clear ; cd ~/Termux-os ; bash os.sh; }
+4line() { chsh -s bash; cd ~/Flame-os ; bash os.sh; }
+5line() { rm -rf ~/.zshrc; cd ~/Flame-os/.object; bash .2.sh; clear ; cd ~/Flame-os ; bash os.sh; }
+6line() { cd ~/Flame-os/.object; bash .1.sh; clear ; cd ~/Flame-os ; bash os.sh; }
 7line() { cd ~/Flame-os/.object; rm -rf ~/.zshrc; chsh -s zsh; bash .3.sh; clear ; cd ~/Flame-os ; bash os.sh; }
-10line() { rm -rf ~/Termux-os; cd; git clone https://github.com/h4ck3r0/Termux-os; cd ~/Termux-os ; bash os.sh; }
+10line() { rm -rf ~/Flame-os; cd; git clone https://github.com/h4ck3r0/Termux-os; cd ~/Termux-os ; bash os.sh; }
 8line() {
     echo -e "\n${C}Initialising Security Protocol...${RS}"
     echo -ne "${Y}Create Access Key: ${RS}"
