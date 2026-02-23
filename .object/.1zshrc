@@ -6,7 +6,7 @@ plugins=(git)
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
 
 clear
-echo -e "\033[1;32m[*] BOOTING TERMUX-OS v3..."
+echo -e "\033[1;32m[*] BOOTING FLAME-OS v1..."
 echo -ne "\033[1;36m[LOADING MODULES] \033[1;32m"
 for i in {1..25}; do
     echo -ne "█"
@@ -44,9 +44,8 @@ draw_banner() {
     figlet -c -f ASCII-Shadow -w $BOX_WIDTH "\PROC" | lolcat
     
     print_center ""
-    print_center "SYSTEM: ONLINE  |  USER: ROOT"
-    print_center "OS : Termux-OS v3"
-    print_center "SECURE CONNECTION ESTABLISHED"
+    print_center "SYSTEM: ONLINE  |  USER: PRIME"
+    print_center "OS : FLAME-OS v1"
     print_center ""
     draw_line "╚" "╝"
 }
